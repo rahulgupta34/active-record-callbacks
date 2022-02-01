@@ -71,6 +71,8 @@ GEM
     bindex (0.8.1)
     bootsnap (1.10.2)
       msgpack (~> 1.2)
+    boring_generators (0.11.0)
+      railties
     builder (3.2.4)
     capybara (3.36.0)
       addressable
@@ -214,6 +216,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  boring_generators
   capybara
   debug
   importmap-rails
